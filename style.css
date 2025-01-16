@@ -13,6 +13,7 @@ body {
 }
 
 /* nav style */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -59,13 +60,14 @@ nav button:hover {
     font-weight: 500;
     color: #0E0E0E;
     opacity: 50%;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .banner-text h5 {
     font-size: 55px;
     font-weight: 700;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
+    margin-top: 24px;
 }
 
 .btn-banner {
@@ -82,7 +84,6 @@ nav button:hover {
 
 .btn-banner:hover {
     color: #C6E4D6;
-    ;
 }
 
 .pillers-title {
@@ -322,12 +323,14 @@ vision-des {
     width: 600px;
     margin: 0;
 }
-.footer-section{
+
+.footer-section {
     background-color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+
 hr{
     margin-bottom: 32px;
     width: 1122px;
